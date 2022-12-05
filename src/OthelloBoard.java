@@ -376,7 +376,7 @@ public class OthelloBoard {
                             playerEndScoreWouldBe - opponentsEndScoreWouldBe > bestTotalGainInPieces;
                     boolean isEqualToLastHighestMoveFound =
                             playerEndScoreWouldBe - opponentsEndScoreWouldBe == bestTotalGainInPieces;
-                    boolean isSidePlace =  // if pieces is on edge of board (generally better moves)
+                    boolean isSidePlace =  // if pieces is on edge of board (generally better moves) test...
                             row == 0 || row == othelloBoard.BOARD.length - 1 ||
                                     column == 0 || column == othelloBoard.BOARD.length - 1;
                     // set this move as new best move found if it results in the greatest gain in pieces, OR results in equal
